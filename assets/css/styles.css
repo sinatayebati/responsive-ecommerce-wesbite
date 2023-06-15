@@ -225,8 +225,36 @@ img{
   transform: var(--rotate-img);
 }
 
-/*BUTTONS*/
+.home__new{
+  display: block;
+  font-size: var(--smaller-font-size);
+  font-weight: var(--font-semi-bold);
+  margin-bottom: var(--mb-2);
+}
 
+.home__title{
+  font-size: var(--bigger-font-size);
+  margin-bottom: var(--mb-1);
+}
+
+.home__description{
+  margin-bottom: var(--mb-6);
+}
+
+/*BUTTONS*/
+.button{
+  display: inline-block;
+  background-color: var(--dark-color);
+  color: var(--white-color);
+  padding: 1.125rem 2rem;
+  font-weight: var(--font-medium);
+  border-radius: .5rem;
+  transition: .3s;
+}
+
+.button:hover{
+  transform: translateY(-.25rem);
+}
 
 /*===== FEATURED =====*/
 
