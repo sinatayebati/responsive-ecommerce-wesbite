@@ -382,7 +382,13 @@ img{
 }
 
 /*===== OFFER =====*/
-
+.offer__container{
+  grid-template-columns: 45% 45%;
+  column-gap: 0;
+  background-color: var(--dark-color-lighten);
+  border-radius: .5rem;
+  justify-content: center;
+}
 
 /*===== NEW COLLECTION  =====*/
 
