@@ -306,7 +306,7 @@ img{
   width: 220px;
   margin-top: var(--mb-3);
   margin-bottom: var(--mb-6);
-  transform: var(--rotate-img);
+  /* transform: var(--rotate-img); */
   filter: drop-shadow(0 12px 8px rgba(0,0,0,.2));
 }
 
@@ -328,12 +328,54 @@ img{
   transform: translateY(-.5rem);
 }
 
-
-
 /*===== COLLECTION =====*/
+.collection__container{
+  row-gap: 2rem;
+  justify-content: center;
+}
 
+.collection__card{
+  position: relative;
+  display: flex;
+  height: 328px;
+  background-color: var(--dark-color-lighten);
+  padding: 2rem;
+  border-radius: .5rem;
+  transition: .3s;
+}
 
-/*===== WOMEN SNEAKERS =====*/
+.collection__data{
+  align-self: flex-end;
+}
+
+.collection__img1{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+}
+
+.collection__img{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 230px;
+}
+
+.collection__name{
+  font-size: var(--bigger-font-size);
+  margin-bottom: .25rem;
+}
+
+.collection__description{
+  margin-bottom: var(--mb-2);
+}
+
+.collection__card:hover{
+  transform: translateY(-.5rem);
+}
+
+/*===== WOMEN BAG =====*/
 
 
 /*===== OFFER =====*/
