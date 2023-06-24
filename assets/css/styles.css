@@ -395,6 +395,13 @@ img{
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
+/*===== MEN BAG =====*/
+
+.men__container{
+  row-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
 /*===== OFFER =====*/
 .offer__container{
   grid-template-columns: 55% 45%;
